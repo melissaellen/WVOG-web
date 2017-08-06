@@ -1,0 +1,179 @@
+/***** FONTS *****/
+
+@font-face {
+    font-family: dancing;
+    src: url(dancing.otf);
+}
+
+@font-face {
+    font-family: oswald-light-italic;
+    src: url(Oswald-Extra-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: oswald-light;
+    src: url(Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: oswald-medium;
+    src: url(Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: oswald-reg;
+    src: url(Oswald-Regular.ttf);
+}
+
+/*****************************/
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 50px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav {
+    width: 300px;
+    padding: 50px 50px 0 50px;
+}
+
+h1 {
+    color: white;
+    font-family: dancing;
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: -20px;
+}
+
+h2 {
+    color: white;
+    padding-left: 25px;
+    font-family: oswald-reg;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.navigation li a {
+    font-family: oswald-medium;
+    font-size: 22px;
+    color: #a0a0a0;
+}
+
+.navigation .active {
+    color: white;
+}
+
+
+nav {
+    background-color: none;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    border: none;
+}
+
+.navbar-default {
+    background-color: transparent;
+    filter: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    
+    padding: 5px 0 5px 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+#home {
+    padding-left: 50px;
+    margin: 100px 100px 0 0;
+}
+
+#home h3 {
+    padding-bottom: 20px;
+}
+
+#home h4 {
+    padding-bottom: 50px;
+}
+
+#home h5 {
+    margin-bottom:50px;
+}
+
+#home hr {
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: white;
+    font-family: oswald-light;
+    font-size: 33px;
+}
+
+h4 {
+    color: white;
+    font-family: oswald-light-italic;
+    font-size: 31px;
+}
+
+h5 {
+    color: white;
+    font-family: oswald-light-italic;
+    font-size: 20px;
+    border: 2px solid #fff18a;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.para {
+    color: white;
+    font-family: oswald-light;
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: oswald-light;
+    font-size: 20px;
+    color: #9e9e9e;
+}
